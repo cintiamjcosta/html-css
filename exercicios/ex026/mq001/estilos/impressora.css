@@ -17,6 +17,10 @@ menu {
     display: none; /* quer dizer que não vai ser exibido */
 }
 
+article {
+    width: 100%;
+}
+
 article::after {
     content: 'Este artigo foi impresso através do site www.cursoemvideo.com;'
 }
