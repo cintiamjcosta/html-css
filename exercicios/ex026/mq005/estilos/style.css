@@ -1,5 +1,79 @@
 @charset "UTF-8";
 
+/* Configuração Mobile Firt */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin: 0px;
+    padding: 0px;
+}
+
 body, html {
     background-color: lightgrey;
 }
+
+header {
+    background-color: gray;
+}
+
+header > h1 {
+    padding: 10px;
+    text-align: center;
+}
+
+span#burguer {
+    background-color: rgb(36, 36, 36);
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+span#burguer:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer; /* Vira uma mãozinha quando aponta o mouse para ícone */
+}
+
+menu {
+    display: none;  /* Não vai aparecer o menu quando o site for carregado */
+}
+
+menu > ul {
+    list-style-type: none; /* Tira as bolinhas do menu */
+}
+
+menu > ul > li > a { /* É o caminho até chegar ao link. Esse menu é para o mobile */
+    display: block;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none; /* Tirar o sublinhado do link */
+    background-color: rgb(70, 69, 69);
+    color: white;
+    border-top: 2px solid rgb(161, 161, 161);
+}
+
+menu > ul > li > a:hover {
+    background-color: gray;
+}
+
+main {
+    width: 90vw;
+    background-color: white;
+    margin: auto; /* Auto é centralizado */
+    padding: 10px;
+    border-radius: 10px; /* Geralmente o main tem border-radius */
+    margin-top: 10px;
+}
+
+article > h2 {
+    padding-bottom: 20px;
+
+}
+
+article > p {
+    text-align: justify;
+    margin-bottom: 20px;
+    text-indent: 10px; /* Parágrafo */
+}
+
